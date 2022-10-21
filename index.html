@@ -13,11 +13,11 @@
         Question: <span id="question"></span> / <span id="total"></span>
       </p>
     </header>
-    <form id="question-form">
+    <form id="question-form" >
       <div id="question-box"></div>
       <div class="options-box">
         <div class="form-group options" id="opt-a">
-          <input type="radio" name="option" />
+          <input type="radio" name="option" required/>
           <span></span>
         </div>
         <div class="form-group options" id="opt-b">
@@ -31,7 +31,7 @@
       </div>
 
       <div class="form-control">
-        <button id="prev-btn">previous</button>
+        <!-- <button id="prev-btn">previous</button> -->
         <button id="next-btn">Next</button>
         <input type="submit" value="Submit" id="submit-btn" />
       </div>
