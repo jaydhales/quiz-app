@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#question-form {
+  width: 80vw;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 4px ;
+}
+
+#question-box {
+    
+}
