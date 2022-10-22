@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <title>Document</title>
+    <title>Quiz App</title>
   </head>
   <body>
     <header>
+      <h1>Quiz App</h1>
       <p class="question-num">
         Question: <span id="question"></span> / <span id="total"></span>
       </p>
     </header>
-    <form id="question-form" >
+    <form id="question-form">
       <div id="question-box"></div>
       <div class="options-box">
         <div class="form-group options" id="opt-a">
-          <input type="radio" name="option" required/>
+          <input type="radio" name="option" required />
           <span></span>
         </div>
         <div class="form-group options" id="opt-b">
@@ -32,12 +33,16 @@
 
       <div class="form-control">
         <!-- <button id="prev-btn">previous</button> -->
-        <button id="next-btn">Next</button>
-        <input type="submit" value="Submit" id="submit-btn" />
+        <input type="button" id="next-btn" class="btn" value="Next" />
+        <input type="submit" value="Submit" id="submit-btn" class="btn" />
       </div>
     </form>
 
-    <div id="result"></div>
+    <div id="result">
+      Here is your result
+      <p></p>
+      <a href="" class="btn" onclick="{console.log(window)}">Retry</a>
+    </div>
 
     <script src="./index.js"></script>
   </body>

@@ -103,7 +103,7 @@ const questions = [
     optionA: "Togo",
     optionB: "Tunisia",
     optionC: "Lithuania",
-    correctOpt: "optionc",
+    correctOpt: "optionC",
   },
 ];
 
@@ -188,9 +188,9 @@ const validateAnswers = (currentQuestion) => {
 
 questionForm.onsubmit = (e) => {
   e.preventDefault();
-  resultDiv.innerHTML += `<div>
-    <p>Total Score: ${totalScore} / ${questions.length}</p>
-  </div>`;
+  questionForm.style.display = "none";
+  resultDiv.style.display = "block";
+  resultDiv.firstElementChild.innerHTML = `Total Score: ${totalScore} / ${questions.length}`;
 };
 
 updateDom();

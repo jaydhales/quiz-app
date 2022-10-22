@@ -9,15 +9,56 @@ header {
   font-size: 1.5rem;
   padding: 1rem;
 }
+h1 {
+  margin: 2rem;
+}
 
 #question-form {
   width: 80vw;
   margin: auto;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0 0 4px ;
+  box-shadow: 0 0 4px;
 }
 
 #question-box {
-    
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.form-group {
+  margin: 0.5rem 0;
+}
+
+.form-control {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 0px;
+  background: greenyellow;
+}
+
+#result {
+  position: absolute;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 0 3px;
+  left: 50%;
+  transform: translate(-50%, -40%);
+
+  font-size: 1.4rem;
+  border-radius: 10px;
+  display: none;
+}
+
+#result .btn,
+p {
+  margin: 1rem auto;
+  width: max-content;
+  display: block;
 }
