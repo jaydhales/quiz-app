@@ -13,6 +13,11 @@ h1 {
   margin: 2rem;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 #question-form {
   width: 80vw;
   margin: auto;
@@ -40,7 +45,7 @@ h1 {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   border: 0px;
-  background: greenyellow;
+  background: rgb(255, 161, 74);
 }
 
 #result {
@@ -50,7 +55,6 @@ h1 {
   box-shadow: 0 0 3px;
   left: 50%;
   transform: translate(-50%, -40%);
-
   font-size: 1.4rem;
   border-radius: 10px;
   display: none;

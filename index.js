@@ -188,6 +188,7 @@ const validateAnswers = (currentQuestion) => {
 
 questionForm.onsubmit = (e) => {
   e.preventDefault();
+  updateDom();
   questionForm.style.display = "none";
   resultDiv.style.display = "block";
   resultDiv.firstElementChild.innerHTML = `Total Score: ${totalScore} / ${questions.length}`;
